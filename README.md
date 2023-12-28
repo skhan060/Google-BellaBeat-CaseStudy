@@ -11,14 +11,6 @@ Bellabeat is a successful small company, but they have the potential to become a
 
 The data source, ["Fitbit Fitness Tracker Data"](https://www.kaggle.com/arashnic/fitbit) was found on data science and coding website, Kaggle by data scientist, Möbius. The datasets were sourced from a survey performed on Amazon Mechanical Turk workers for a [study](https://www.google.com/url?q=https%3A%2F%2Fwww.researchprotocols.org%2F2017%2F4%2Fe66%2F&sa=D&sntz=1&usg=AOvVaw3Coma2iK-d62qUR9JIjAKx) which collected Fitbit tracking data.  The original study states 30 participants were surveyed, however 33 can be found in the data. No demographic information such as age, height, or sex was provided. The exact Fitbit models are not specified, but it is noted that variation across the datasets is potentially due to varying device models and user tracking preferences. The data in my analysis is focused during 4-12-2016 to 5-12-2016. The data includes a total of 33 users over 4 datasets tracking data including: physical activity, steps count, sleep time, and weight information. 
 
- 1. "Daily Activity Merged" includes daily activity logs for 33 users.  This set compiles 3 activity types, their distance, minutes spent performing them. The 3 activity types are: light, fairly and very active. The distance columns are not defined but based on the step data provided resemble Kilometers. Minutes spent without activity are categorized as sedentary time. This set also includes steps taken and calories burned. 
-
- 2. "Hourly Steps Merged" includes the same 33 user Ids, but expands the daily steps into hourly increments categorized in 24 hour format. As mentioned previously, there was a variance between the total steps calculated in this set compared to the daily logs in the "Daily Activity Merged" set above, likely due to device usage. Because of this variance I used the step information in this set only for my analysis on steps per time of day.
-
- 3. "Sleep Day Merged", details 24 user Ids, their minutes asleep, and minutes in bed but not asleep. [Fitbit’s website](https://help.fitbit.com/articles/en_US/Help_article/2163.htm) states that the watch tracks heart rate and movement patterns to determine if the user is awake or asleep. Fitbit also states that the “Awake” category includes when users are somewhere in a sleep cycle but are restless and wake up briefly. 
-
- 4. "Weight Log Info Merged", includes only 8 user Ids, weight (kg and lbs), BMI, and whether the data was logged manually or automatically. The set also included a “Fat” column but was only utilized in 2 cells.
-
 ## ⚙ Approach/Steps
 ### 1. Ask
 
@@ -37,7 +29,33 @@ Three questions will guide the future marketing program:
 **Tools:** <br>
 - Data cleaning & processing - SQL on Google Big Query & Spreadsheets (.CSV)
 - Data visualization - [Tableau](https://public.tableau.com/app/profile/saad.khan6444/viz/BellaBeatGoogleCaseStudy/Dashboard1#2)
-## The Cleaning Process
+
+### 3. Process
+The basis for this analysis is **4-12-2016 to 5-12-2016** data and the steps for processing the data are as follow:
+1) [Data Combining]
+2) [Data Exploration]
+3) [Data Cleaning]
+4) [Data Analysis]
+
+#### Data Selection
+The 4 tables from **Fitbit Fitness Tracker Data** were selected.
+
+ 1. "Daily Activity Merged"
+ 2. "Hourly Steps Merged"
+ 3. "Sleep Day Merged"
+ 4. "Weight Log Info Merged"
+
+#### Data Exploration
+
+ 1. "Daily Activity Merged" includes daily activity logs for 33 users.  This set compiles 3 activity types, their distance, minutes spent performing them. The 3 activity types are: light, fairly and very active. The distance columns are not defined but based on the step data provided resemble Kilometers. Minutes spent without activity are categorized as sedentary time. This set also includes steps taken and calories burned. 
+
+ 2. "Hourly Steps Merged" includes the same 33 user Ids, but expands the daily steps into hourly increments categorized in 24 hour format. As mentioned previously, there was a variance between the total steps calculated in this set compared to the daily logs in the "Daily Activity Merged" set above, likely due to device usage. Because of this variance I used the step information in this set only for my analysis on steps per time of day.
+
+ 3. "Sleep Day Merged", details 24 user Ids, their minutes asleep, and minutes in bed but not asleep. [Fitbit’s website](https://help.fitbit.com/articles/en_US/Help_article/2163.htm) states that the watch tracks heart rate and movement patterns to determine if the user is awake or asleep. Fitbit also states that the “Awake” category includes when users are somewhere in a sleep cycle but are restless and wake up briefly. 
+
+ 4. "Weight Log Info Merged", includes only 8 user Ids, weight (kg and lbs), BMI, and whether the data was logged manually or automatically. The set also included a “Fat” column but was only utilized in 2 cells.
+
+#### The Cleaning Process
 
 For this project I used Microsoft Excel and SQL for data cleaning. I started the cleaning process by checking all of my datasets for the same issues: blank spaces, duplicates, and inconsistencies. The following  is my changelog for the cleaning process in Excel:
 
