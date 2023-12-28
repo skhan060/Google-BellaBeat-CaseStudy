@@ -36,7 +36,7 @@ Three questions will guide the future marketing program:
 
 **Tools:** <br>
 - Data cleaning & processing - SQL on Google Big Query & Spreadsheets (.CSV)
-- Data visualization - [Tableau](https://public.tableau.com/app/profile/saad.khan6444/viz/BellaBeatGoogleCaseStudy/Dashboard1)
+- Data visualization - [Tableau](https://public.tableau.com/app/profile/saad.khan6444/viz/BellaBeatGoogleCaseStudy/Dashboard1#2)
 ## The Cleaning Process
 
 For this project I used Microsoft Excel and SQL for data cleaning. I started the cleaning process by checking all of my datasets for the same issues: blank spaces, duplicates, and inconsistencies. The following  is my changelog for the cleaning process in Excel:
