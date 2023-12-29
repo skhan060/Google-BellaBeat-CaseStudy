@@ -91,6 +91,96 @@ For this project I used Microsoft Excel and SQL for data cleaning. I started the
    * Removed column “Fat”
 
    * Removed column “LogId”
+     
+### 4. Analyze (Trends Summarized)
+
+ I then uploaded my 4 tables into BigQuery SQL Console to begin my data analyses.
+ Key findings about user trends:
+
+ #### 1. Activity
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/6615b38c-3a84-4866-9ecd-272f03b3673d)
+
+  * More time is spent performing a light level of activity than moderate or very active levels.
+    
+ 
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/4c6bdfcb-5944-452c-9700-bfa42c284ec0)
+
+  * All of the 33 users in the data sets tracked activity with 21 of them finishing the month with a daily log.
+    
+
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/cd59f41a-acb9-4664-b51b-96a577485ccc)
+
+  * There is a direct correlation between the more vigorous the activity level the more calories burned.
+
+ #### 2. Steps
+
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/4d01ddfb-4b56-44af-a924-8591d3adb437)
+
+  * Users are typically taking more steps on Tuesdays and Saturdays with a plateau mid week.
+    
+
+![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/8d978d87-9c13-4e9e-835b-0c8b19b827b6)
+
+  * Users gradually increase their step count throughout the day. There is a rapid rise and fall between 10am and 4pm with a peak around 6pm and then a rapid decline. 
+
+
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/513777e1-8232-479c-a3d5-bcd474b61120)
+
+ * There is a direct correlation between the number of steps taken in a day and the respective calories burned. 
+
+
+#### 3. Sleep
+
+
+![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/c27771b0-927a-4956-8dea-a7acada568ca)
+
+  * Average sleep Varies over time for users but averages just around 7 hours a night.
+
+
+![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/24bf32d6-9c16-47e4-917f-c66babb08ce0)
+
+  * Not all users tracked sleep data each night. Users are tracking their sleep inconsistently.
+
+ #### 4. Weight
+
+  * Only 8 of the 33 users tracked weight data and of them only 2 did so more than 5 times.
+ ![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/5e8a2332-49a0-46d9-835d-35ee26b71173)
+
+
+  * Average pounds - 171.5
+
+  * Average BMI 27.98 (25.0 to 29.9 falls within the overweight range according to the CDC)
+
+### 5. Share
+
+![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/edab57e4-58f1-4bf5-9ce2-0cdbe481237b)
+View  [Tableau](https://public.tableau.com/app/profile/saad.khan6444/viz/BellaBeatGoogleCaseStudy/Dashboard1#2)
+
+### 6. Act
+#### <ins>Recommendations</ins>
+
+
+## 1. Target areas of health tracking that the Fitbit data suggests users could use improvement in
+
+ * Meet the recommended 7 hours of sleep with the sleep tracker and if adequate sleep is not achieved generate a reminder. 
+
+ * Encourage getting more than 7000 steps as a baseline goal for all users and issue activity reminders upon extendended sedentary periods.
+
+ * Encourge weekly weight logs by settingup reminder for a particular day of the week.
+
+## 2. Promote the positive and well rounded health feature. 
+
+ * The data suggests users do not have an interest in weight tracking and neglect tracking sleep as well.
+
+ * Focus should taken away form daily weight logs and more emphasis should be placed on daily sleeps logs.
+
+ * If a poor sleep schedule is detected consistently an alarm should be issued regardng the negative effects of lack of sleep on mental and physical health.
+
+ * An option to track intake of water shoudld also be integrated.
+
+# In summary
+ Bellabeat should continue to market their positive and well-rounded health monitoring services. Emphasize how their products, the Ivy and Leaf, can do all of the physical fitness tracking that Fitbit does that consumers like, but with the addition of the wellness score tool that can help them monitor other key aspects (hydration, stress, menstrual cycle) that make up a healthy life in an upbeat and stylish way!
+
 
 ## Data Manipulation and Analysis 
 
