@@ -179,17 +179,13 @@ View  [Tableau](https://public.tableau.com/app/profile/saad.khan6444/viz/BellaBe
  * An option to track intake of water shoudld also be integrated.
 
 # In summary
- Bellabeat should continue to market their positive and well-rounded health monitoring services. Emphasize how their products, the Ivy and Leaf, can do all of the physical fitness tracking that Fitbit does that consumers like, but with the addition of the wellness score tool that can help them monitor other key aspects (hydration, stress, menstrual cycle) that make up a healthy life in an upbeat and stylish way!
+
+Below is a comparison of smart device usage for tracking between Activity vs Sleep vs Steps.
+
+![image](https://github.com/skhan060/Google-BellaBeat-CaseStudy/assets/153567661/0e904891-f31a-42d7-a7b4-86d0ba985bb6)
+
+Overall users are tracking activity data the most consistently and frequently. Sleep monitoring is still popular but much less consistent. Lastly weight tracking is nearly insignificant in comparison to the other types of monitoring. This suggests users are most interested in physical activity tracking.
+
+Furthermore, Bellabeat should continue to market their positive and well-rounded health monitoring services. Emphasize how their products monitor physical activity and sleep with peiroidic monitoring of weight to promote a wholistic healthy lifestyle.
 
 
-## Data Manipulation and Analysis 
-
-I then uploaded my 4 tables into BigQuery SQL Console to begin my data manipulation. Each phase of manipulation was guided by a question in search of a trend.
-
-# Continue to:
- 1. *SQL_Queries* for all queries
- 2. *Data Table Link* for access to view all tables resulting for queries
- 3. *Analysis* for analysis of data
- 4. *Visualizations* for data graphs
- 5. *Recommendations* for my answer to the business task
- 6. *Sources Cited* for resource credits
