@@ -1,0 +1,6 @@
+The 4 tables from **["Fitbit Fitness Tracker Data"](https://www.kaggle.com/arashnic/fitbit)** were selected.
+
+ 1. "Daily Activity Merged"
+ 2. "Hourly Steps Merged"
+ 3. "Sleep Day Merged"
+ 4. "Weight Log Info Merged"
